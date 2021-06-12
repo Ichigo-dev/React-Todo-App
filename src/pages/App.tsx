@@ -1,6 +1,8 @@
 import React from 'react';
-import logo from '../assets/imgs/logo.svg';
 import './App.css';
+
+//@ts-ignore
+import logo from '../assets/imgs/logo.svg';
 
 const App = () =>{
   return (
