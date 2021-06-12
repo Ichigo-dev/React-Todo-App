@@ -7,7 +7,9 @@ import Task from "./pages/Task";
 const routes = () => (
  <Switch>
    <Route exact path="/" component={App}></Route>
-   <Route path="/task" component={Task}></Route>
+   <Route path="/task">
+     <Task name="Ichigo"></Task>
+   </Route>
    <Route component={App} />
  </Switch>
 );
