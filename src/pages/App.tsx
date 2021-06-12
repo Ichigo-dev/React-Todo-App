@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../assets/imgs/logo.svg';
 import './App.css';
 
-function App() {
+const App = () =>{
   return (
     <div className="App">
       <header className="App-header">
@@ -18,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <a href="/task">Task</a>
       </header>
     </div>
   );
